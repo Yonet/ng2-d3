@@ -36,6 +36,8 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/line-graph-cmp',
+  'app/donut-graph-cmp',
   /** @cli-barrel */
 ];
 
