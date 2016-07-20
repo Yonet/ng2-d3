@@ -6,7 +6,8 @@ import * as d3 from 'd3';
   moduleId: module.id,
   selector: 'app-scatter-plot-cmp',
   templateUrl: 'scatter-plot-cmp.component.html',
-  styleUrls: ['scatter-plot-cmp.component.css']
+  styleUrls: ['scatter-plot-cmp.component.css'],
+  input:['data', 'options']
 })
 export class ScatterPlotCmpComponent implements OnInit {
   private beards = [];
