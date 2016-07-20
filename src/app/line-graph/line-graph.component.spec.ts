@@ -3,11 +3,11 @@
 import { By }           from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 import { addProviders, async, inject } from '@angular/core/testing';
-import { LineGraphCmpComponent } from './line-graph-cmp.component';
+import { LineGraphComponent } from './line-graph.component';
 
-describe('Component: LineGraphCmp', () => {
+describe('Component: LineGraph', () => {
   it('should create an instance', () => {
-    let component = new LineGraphCmpComponent();
+    let component = new LineGraphComponent();
     expect(component).toBeTruthy();
   });
 });

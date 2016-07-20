@@ -43,6 +43,7 @@ const barrels: string[] = [
   'app/line-graph-cmp',
   'app/donut-graph-cmp',
   'app/scatter-plot-cmp',
+  'app/line-graph',
   /** @cli-barrel */
 ];
 
