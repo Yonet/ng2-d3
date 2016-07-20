@@ -9,10 +9,14 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'd3': 'vendor/d3/build/d3.js'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'd3': {
+    format: 'cjs'
+  }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -38,6 +42,7 @@ const barrels: string[] = [
   'app/shared',
   'app/line-graph-cmp',
   'app/donut-graph-cmp',
+  'app/scatter-plot-cmp',
   /** @cli-barrel */
 ];
 
