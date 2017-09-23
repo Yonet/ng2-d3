@@ -5,7 +5,9 @@ import { Component } from '@angular/core';
   template: `
     <p>
       app Works!
+      <svg [aBarChart]='Hello!'></svg>
     </p>
+
     <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.scss']
